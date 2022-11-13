@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <h1>Basice Calculator</h1>
+    <div class="app">
+      <div id="calculator">
+       <div class="screen">
+        <div id="display">0</div>
+       </div>
+        <div class="keys">
+          <button data-key="c" id="clearBtn" class="btn">Clear</button>
+          <button data-key="backspace" id="btnClearLastAction" class="btn">
+            CE
+          </button>
+          <button data-key="arrow" id="backBtn" class="btn">
+            &LeftArrow;
+          </button>
+          <button data-key="/" id="divisionBtn" class="btn">÷</button>
+          <button data-key="7" class="btn btn-number">7</button>
+          <button data-key="8" class="btn btn-number">8</button>
+          <button data-key="9" class="btn btn-number">9</button>
+          <button data-key="*" id="multiplyBtn" class="btn">×</button>
+          <button data-key="4" class="btn btn-number">4</button>
+          <button data-key="5" class="btn btn-number">5</button>
+          <button data-key="6" class="btn btn-number">6</button>
+          <button data-key="-" id="subtractBtn" class="btn">-</button>
+          <button data-key="1" class="btn btn-number">1</button>
+          <button data-key="2" class="btn btn-number">2</button>
+          <button data-key="3" class="btn btn-number">3</button>
+          <button data-key="+" id="additionBtn" class="btn">+</button>
+          <button data-key="+-" id="pnNumber" class="btn">+-</button>
+          <button data-key="0" class="btn btn-number">0</button>
+          <button data-key="." id="pointBtn" class="btn">.</button>
+          <button data-key="=" id="btn-equal" class="btn">=</button>
+        </div>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
